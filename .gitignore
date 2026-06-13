@@ -43,6 +43,8 @@ ScaffoldingReadMe.txt
 ~$*
 *~
 CodeCoverage/
+node_modules/
+*.tsbuildinfo
 
 # MSBuild Binary and Structured Log
 *.binlog
