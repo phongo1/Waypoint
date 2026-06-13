@@ -9,12 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Components\**" />
     <None Update="Data\app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
-    <Content Remove="Components\**" />
     <Content Remove="$(SpaRoot)**" />
     <None Remove="$(SpaRoot)**" />
-    <None Remove="Components\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**;$(SpaRoot)dist\**" />
   </ItemGroup>
 
